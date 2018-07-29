@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns:ie="http://schemas.microsoft.com/Search/2008/" 
+    xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>必应</ShortName>
+    <Tags>Bing</Tags>
+    <Description>微软 Bing 搜索是国际领先的搜索引擎，为中国用户提供网页、图片、视频、学术、词典、翻译、地图等全球信息搜索服务。</Description>
+    <Contact>msosa@microsoft.com</Contact>
+    <InputEncoding>UTF-8</InputEncoding>
+    <SyndicationRight>limited</SyndicationRight>
+    <Image type="image/x-icon" height="16" width="16">https://www.bing.com/sa/simg/bing_p_rr_teal_min.ico</Image>
+    <Url type="text/html" template="https://www.bing.com/search?q={searchTerms}&amp;amp;src=IE-SearchBox&amp;amp;FORM=IESR02" />
+    <Url type="application/x-suggestions+xml" template="https://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;market={language}" />
+    <ie:TopResult type="text/html" template="https://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02" />
+    <ie:NTSearchResult type="text/html" template="https://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR" />
+    <ie:NTTopResult type="text/html" template="https://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR" />
+    <ie:NTSearchSuggestion type="application/x-suggestions+xml" template="https://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS" />
+</OpenSearchDescription>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Yahoo! JAPAN</ShortName>
+    <Description>Yahoo! JAPANで検索</Description>
+    <Url type="text/html" template="https://search.yahoo.co.jp/search?p={searchTerms}&amp;ei=UTF-8" />
+    <Url type="application/x-suggestions+json" template="https://search.yahooapis.jp/AssistSearchService/V2/webassistSearch?p={searchTerms}&amp;appid=oQsoxcyxg66enp0TYoirkKoryq6rF8bK76mW0KYxZ0v0WPLtn.Lix6wy8F_LwGWHUII-&amp;output=iejson&amp;src=srch&amp;fr=opsrch" />
+    <Image height="16" width="16" type="image/x-icon">https://search.yahoo.co.jp/favicon.ico</Image>
+    <AdultContent>false</AdultContent>
+    <Language>ja-JP</Language>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>

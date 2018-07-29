@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>360搜索</ShortName>
+    <Description>360 搜索是安全、精准、可信赖的新一代搜索引擎，依托于 360 母品牌的安全优势，全面拦截各类钓鱼欺诈等恶意网站，提供更放心的搜索服务。 360 搜索 so 靠谱。</Description>
+    <LongName>360搜索</LongName>
+    <Attribution>© 2005-2018 360.cn</Attribution>
+    <Url type="text/html" template="https://www.so.com/s?q={searchTerms}&amp;ie=utf-8&amp;oe=utf-8" />
+    <Url type="application/x-suggestions+json" rel="suggestions" template="https://sug.so.360.cn/suggest?word=QQ&amp;encodein=utf-8&amp;encodeout=utf-8&amp;outfmt=json" />
+    <Image width="16" height="16">https://s.ssl.qhres.com/static/52166db8c450f68d.ico</Image>
+    <AdultContent>false</AdultContent>
+    <Language>zh-CN</Language>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>

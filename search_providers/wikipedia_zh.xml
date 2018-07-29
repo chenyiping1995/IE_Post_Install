@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>Wikipedia (中文)</ShortName>
+    <Description>维基百科，自由的百科全书。</Description>
+    <LongName>维基百科</LongName>
+    <Image height="16" width="16" type="image/x-icon">https://zh.wikipedia.org/static/favicon/wikipedia.ico</Image>
+    <Url type="text/html" method="get" template="https://zh.wikipedia.org/w/index.php?title=Special:%E6%90%9C%E7%B4%A2&amp;search={searchTerms}" />
+    <Url type="application/x-suggestions+json" method="get" template="https://zh.wikipedia.org/w/api.php?action=opensearch&amp;search={searchTerms}&amp;namespace=0" />
+    <Url type="application/x-suggestions+xml" method="get" template="https://zh.wikipedia.org/w/api.php?action=opensearch&amp;format=xml&amp;search={searchTerms}&amp;namespace=0" />
+    <moz:SearchForm>https://zh.wikipedia.org/wiki/Special:%E6%90%9C%E7%B4%A2</moz:SearchForm>
+</OpenSearchDescription>

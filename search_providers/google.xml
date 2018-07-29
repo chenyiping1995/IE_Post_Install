@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Google</ShortName>
+    <Description>Google</Description>
+    <Url type="text/html" template="https://www.google.com/search?q={searchTerms}&amp;ie=utf-8&amp;oe=utf-8"/>
+    <Url type="application/x-suggestions+json" rel="suggestions" template="https://www.google.com/complete/search?client=firefox&amp;q={searchTerms}" />
+    <LongName>Google</LongName>
+    <Image height="128" width="128" type="image/png">https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png"</Image>
+    <Image height="16" width="16" type="image/x-icon">https://www.google.com/images/branding/product/ico/googleg_lodp.ico</Image>
+    <Attribution>© 1998-2018 Google Inc.</Attribution>
+    <AdultContent>false</AdultContent>
+    <Language>en-US</Language>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>

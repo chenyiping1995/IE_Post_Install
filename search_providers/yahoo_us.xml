@@ -1,0 +1,11 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Yahoo!</ShortName>
+    <LongName>Yahoo! Search</LongName>
+    <Url type="text/html" template="https://search.yahoo.com/search?p={searchTerms}&amp;b={startPage?}&amp;ei=UTF-8" />
+    <Url type="application/x-suggestions+xml" template="https://ie.search.yahoo.com/os?command={searchTerms}" />
+    <Image height="16" width="16" type="image/x-icon">https://search.yahoo.com/favicon.ico</Image>
+    <AdultContent>false</AdultContent>
+    <Language>en-US</Language>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>
