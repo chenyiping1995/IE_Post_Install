@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/" xmlns:ie="http://schemas.microsoft.com/Search/2008/" >
+    <ShortName>Startpage</ShortName>
+    <Description>Startpage 为荷兰公司 Startpage B.V. 所推出的搜索引擎服务，后台使用 Google 搜索 API，所以具有跟 Google 相同的搜索品质。但是其传送到 Google 服务器的内容仅包含搜索关键字，Google 不会获取到除此以外的头字段和 Cookies 等信息。</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <Image width="64" height="64" type="image/vnd.microsoft.icon">https://www.startpage.com/favicon.ico</Image>
+    <image width="16" height="16" type="image/png">https://www.startpage.com/sp/cdn/favicons/favicon-16x16-gradient.png</image>
+    <Url type="text/html" method="get" template="https://www.startpage.com/sp/search?query={searchTerms}"></Url>
+    <Url type="application/x-suggestions+json" rel="suggestions" method="get" template="https://www.startpage.com/osuggestions?q={searchTerms}"/>
+    <AdultContent>false</AdultContent>
+    <Language>en-US</Language>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>

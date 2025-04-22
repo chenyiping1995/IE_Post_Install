@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/" xmlns:ie="http://schemas.microsoft.com/Search/2008/" >
     <ShortName>百度</ShortName>
-    <Description>百度一下，你就知道</Description>
-    <Url type="text/html" template="https://www.baidu.com/s?wd={searchTerms}&amp;ie=utf-8&amp;oe=utf-8"/>
-    <Url type="application/x-suggestions+json" rel="suggestions" template="http://suggestion.baidu.com/su?wd={searchTerms}&amp;action=opensearch&amp;ie=utf-8" />
     <LongName>百度搜索</LongName>
+    <Description>百度一下，你就知道</Description>
+    <Url type="text/html" method="get" template="https://www.baidu.com/s?wd={searchTerms}&amp;ie=utf-8&amp;oe=utf-8"/>
+    <Url type="application/x-suggestions+json" rel="suggestions" template="http://suggestion.baidu.com/su?ie=utf-8&amp;action=opensearch&amp;wd={searchTerms}" />
+    <Image height="16" width="16" type="image/vnd.microsoft.icon">https://www.baidu.com/favicon.ico</Image>
     <Image type="image/svg+xml">https://www.baidu.com/img/baidu_85beaf5496f291521eb75ba38eacbd87.svg"</Image>
-    <Image height="16" width="16" type="image/x-icon">https://www.baidu.com/favicon.ico</Image>
-    <Attribution>© 2000-2018 Baidu</Attribution>
+    <Attribution>© 2000-2025 Baidu</Attribution>
     <AdultContent>false</AdultContent>
     <Language>zh-CN</Language>
     <OutputEncoding>UTF-8</OutputEncoding>

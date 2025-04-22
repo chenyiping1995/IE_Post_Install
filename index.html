@@ -1,119 +1,120 @@
+<!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=0">
+	<meta name="author" content="chenyiping1995">
+	<meta name="description" content="此页面显示了 Internet Explorer 的后续安装选项。">
 	<title>Internet Explorer 安装程序</title>
 	<style type="text/css">
-		h1,
-		h2,
-		h3,
-		h4,
-		h5 {
-			font-family: 'Segoe UI', Arial, 'Microsoft YaHei', STHeiti, SimHei, sans-serif
+		html {
+			font-family: 'Segoe UI Variable Display', 'Segoe UI', Tahoma, 'MS Sans Serif', 'Microsoft YaHei UI', 'Microsoft YaHei', STHeiti, SimHei, sans-serif;
 		}
 
 		p {
-			font-family: 'Times New Roman', STSong, SimSun, serif
+			font-family: 'Segoe UI Variable Display Light', 'Segoe UI Light', 'Segoe UI', 'Microsoft YaHei UI Light', 'Microsoft YaHei UI', STSong, SimSun, serif;
+		}
+		a {
+		    font-family: 'Segoe UI Variable Display', 'Segoe UI', Tahoma, 'MS Sans Serif', 'Microsoft YaHei UI', 'Microsoft YaHei', STHeiti, SimHei, sans-serif;
 		}
 	</style>
 </head>
 
 <body>
 	<h1>Internet Explorer 后续安装</h1>
-
-	<p>此页面提供了 Windows Internet Explorer 的后续设置选项。</p>
-
+	<p>此页面提供了 Windows Internet Explorer 的后续设置选项。此页面应当仅在 Internet Explorer 7 及以上版本中打开。</p>
 	<h2>搜索提供程序</h2>
-
 	<p>搜索提供程序是支持 Internet Explorer 的搜索建议和地址栏中的自动搜索的加载项。您可以安装多个搜索提供程序，但只有一个是默认搜索提供程序。</p>
-
 	<p>地址栏中的搜索建议可以在你键入时提供相关的搜索词，从而帮助你优化搜索。这些建议来自您的默认搜索提供程序。若要打开或关闭搜索建议，请打开 Internet Explorer，然后开始在地址栏中输入某个搜索词，然后在下拉菜单中选择“打开建议 (或者关闭建议)”。</p>
-
-	<p>至少需要 Internet Explorer 7 才能安装搜索提供程序。如果您是 Windows XP Service Pack 2 用户，请安装 Internet Explorer 8。</p>
-
-	<p>要安装搜索提供程序，请单击下方的搜索引擎，然后单击“添加”。</p>
-
-	<!-- 百度 -->
+	<p>至少需要 Internet Explorer 7 才能安装搜索提供程序。如果您是 Windows XP Service Pack 2 用户，请<a href="https://archive.org/details/ie7and8" target=_blank>安装 Internet Explorer 8</a>。</p>
+	<p>要安装搜索提供程序，请单击下方的搜索引擎名称，然后单击“添加”。</p>
 	<p>
 		<a href="javascript:window.external.AddSearchProvider('./search_providers/baidu.xml');">百度</a>
 	</p>
-
-	<!-- 搜狗 -->
 	<p>
 		<a href="javascript:window.external.AddSearchProvider('./search_providers/sogou.xml');">搜狗</a>
 	</p>
-
-	<!-- 360 -->
 	<p>
 		<a href="javascript:window.external.AddSearchProvider('./search_providers/360.xml');">360</a>
 	</p>
-
-	<!-- Bing -->
 	<p>
-		<a href="javascript:window.external.AddSearchProvider('./search_providers/bing.xml');">必应</a>
+		<a href="javascript:window.external.AddSearchProvider('./search_providers/bing.xml');">Bing</a>
 	</p>
-
-	<!-- Google -->
 	<p>
 		<a href="javascript:window.external.AddSearchProvider('./search_providers/google.xml');">Google</a>
 	</p>
-
-	<!-- YouTube -->
 	<p>
 		<a href="javascript:window.external.AddSearchProvider('./search_providers/youtube.xml');">YouTube</a>
 	</p>
-
-	<!-- Yahoo! (美国)-->
 	<p>
 		<a href="javascript:window.external.AddSearchProvider('./search_providers/yahoo_us.xml');">Yahoo! (美国)</a>
 	</p>
-
-	<!-- Yahoo! (日本)-->
 	<p>
 		<a href="javascript:window.external.AddSearchProvider('./search_providers/yahoo_jp.xml');">Yahoo! (日本)</a>
 	</p>
-
-	<!-- Wikipedia (中文) -->
 	<p>
 		<a href="javascript:window.external.AddSearchProvider('./search_providers/wikipedia_zh.xml');">Wikipedia (中文)</a>
 	</p>
-
-	<!-- Wikipedia (英语) -->
 	<p>
 		<a href="javascript:window.external.AddSearchProvider('./search_providers/wikipedia_en.xml');">Wikipedia (英语)</a>
 	</p>
-
+	<p>
+		<a href="javascript:window.external.AddSearchProvider('./search_providers/brave.xml');">Brave</a>
+	</p>
+	<p>
+		<a href="javascript:window.external.AddSearchProvider('./search_providers/duckduckgo.xml');">DuckDuckGo</a>
+	</p>
+	<p>
+		<a href="javascript:window.external.AddSearchProvider('./search_providers/startpage.xml');">Startpage</a>
+	</p>
+	<p>
+		<a href="javascript:window.external.AddSearchProvider('./search_providers/yandex.xml');">Yandex</a>
+	</p>
 	<h2>跟踪保护列表 (Tracking Protection Lists)</h2>
-
 	<p>跟踪保护有助于防止关于你浏览的信息发送到所访问站点上的第三方内容提供商。可以将跟踪保护列表视为“不要呼叫”列表。Internet Explorer 会阻止来自列表中站点的任何第三方内容，并限制这些第三方站点可能收集的有关你的信息。</p>
-
 	<p>至少需要 Internet Explorer 9 才能使用跟踪保护列表。如果您是 Windows Vista 或者 Windows Server 2008 用户，请
 		<a href="https://www.microsoft.com/zh-cn/download/internet-explorer-9-details.aspx"
 		 target=_blank>从 Microsoft Download Center 下载 Internet Explorer 9</a>。如果您是 Windows 7 Service Pack 1 或者 Windows Server 2008 R2 Service
 		Pack 1 用户，请
-		<a href="https://support.microsoft.com/zh-cn/help/18520/download-internet-explorer-11-offline-installer" target=_blank>下载 Internet Explorer 11 (脱机安装程序)</a>。</p>
-
+		<a href="https://support.microsoft.com/zh-cn/help/18520" target=_blank>下载 Internet Explorer 11 (脱机安装程序)</a>。</p>
 	<p>要安装跟踪保护列表，请单击下方的跟踪保护列表提供商，然后单击“添加列表”。</p>
-
-	<!-- EasyList -->
 	<p>
-		<a href="javascript:window.external.msAddTrackingProtectionList('https://easylist-msie.adblockplus.org/easylist.tpl','EasyList')">EasyList</a>
-		<br>
+	    <a href="javascript:window.external.msAddTrackingProtectionList('https://pgl.yoyo.org/adservers/serverlist.tpl','Peter Lowe\'s List')">Peter Lowe's List</a>
 	</p>
-
-	<!-- EasyList China -->
 	<p>
-		<a href="javascript:window.external.msAddTrackingProtectionList('https://easylist-msie.adblockplus.org/easylistchina.tpl','EasyList China')">EasyList China</a>
+	    <a href="javascript:window.external.msAddTrackingProtectionList('https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareTPL.tpl','Dandelion Sprout\'s Anti-Malware List')">Dandelion Sprout's Anti-Malware List</a>
 	</p>
-
-	<!-- EasyPrivacy -->
 	<p>
-		<a href="javascript:window.external.msAddTrackingProtectionList('https://easylist-msie.adblockplus.org/easyprivacy.tpl','EasyPrivacy')">EasyPrivacy</a>
+		<a href="javascript:window.external.msAddTrackingProtectionList('https://raw.githubusercontent.com/chenyiping1995/IE_Post_Install/refs/heads/master/archived_tpls/easylist.tpl','EasyList (已结束支持)')">EasyList (已结束支持于 2023 年 1 月 29 日)</a>
 	</p>
-
-	<!-- Fanboy Ultimate TPL -->
 	<p>
-		<a href="javascript:window.external.msAddTrackingProtectionList('https://secure.fanboy.co.nz/adblock/ie/fanboy-ultimate-ie.tpl','Fanboy Ultimate TPL (已结束支持)')">Fanboy Ultimate TPL (已结束支持于 2013 年 5 月 11 日)</a>
+		<a href="javascript:window.external.msAddTrackingProtectionList('https://raw.githubusercontent.com/chenyiping1995/IE_Post_Install/refs/heads/master/archived_tpls/easylistchina.tpl','EasyList China (已结束支持)')">EasyList China (已结束支持于 2023 年 1 月 29 日)</a>
+	</p>
+	<p>
+		<a href="javascript:window.external.msAddTrackingProtectionList('https://raw.githubusercontent.com/chenyiping1995/IE_Post_Install/refs/heads/master/archived_tpls/easyprivacy.tpl','EasyPrivacy (已结束支持)')">EasyPrivacy (已结束支持于 2023 年 1 月 29 日)</a>
+	</p>
+	<p>
+		<a href="javascript:window.external.msAddTrackingProtectionList('https://raw.githubusercontent.com/chenyiping1995/IE_Post_Install/refs/heads/master/archived_tpls/abp-filters-anti-cv.tpl','Adblock Plus Anti-Circumvention Filter List (已结束支持)')">Adblock Plus Anti-Circumvention Filter List (已结束支持于 2022 年 12 月 18 日)</a>
+	</p>
+	<p>
+		<a href="javascript:window.external.msAddTrackingProtectionList('https://raw.githubusercontent.com/chenyiping1995/IE_Post_Install/refs/heads/master/archived_tpls/antiadblockfilters.tpl','Adblock Warning Removal List  (已结束支持)')">Adblock Warning Removal List (已结束支持于 2022 年 12 月 18 日)</a>
+	</p>
+	<p>
+		<a href="javascript:window.external.msAddTrackingProtectionList('https://raw.githubusercontent.com/chenyiping1995/IE_Post_Install/refs/heads/master/archived_tpls/fanboy-ultimate-ie.tpl','Fanboy Ultimate TPL (已结束支持)')">Fanboy Ultimate TPL (已结束支持于 2013 年 5 月 11 日)</a>
+	</p>
+	<h2>另请参阅</h2>
+	<p>
+		<a href="https://filterlists.com/tpl">FilterLists.com for Internet Explorer</a>
+	</p>
+	<p>
+		<a href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms535931(v=vs.85)">AddSearchProvider method</a>
+	</p>
+	<p>
+		<a href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/hh273399(v=vs.85)">Create and Host Tracking Protection Lists</a>
+	</p>
+	<p>
+		<a href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc289775(v=vs.85)">OpenService Acceletrators Developer Guide</a>
 	</p>
 </body>
 

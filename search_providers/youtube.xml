@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/" xmlns:ie="http://schemas.microsoft.com/Search/2008/" >
     <ShortName>YouTube 视频</ShortName>
     <Description>在 YouTube 上搜索视频</Description>
     <Image height="16" width="16" type="image/vnd.microsoft.icon">https://www.youtube.com/favicon.ico</Image>
-    <Url type="text/html" template="https://www.youtube.com/results?search_query={searchTerms}&amp;page={startPage?}" />
-    <Url type="application/x-suggestions+json" rel="suggestions" template="https://www.google.com/complete/search?hl=en&amp;ds=yt&amp;output=firefox&amp;q={searchTerms}" />
+    <Url type="text/html" method="get" template="https://www.youtube.com/results?search_query={searchTerms}" />
+    <Url type="application/x-suggestions+json" rel="suggestions" method="get" template="https://www.google.com/complete/search?client=chrome&amp;q={searchTerms}" />
     <AdultContent>false</AdultContent>
     <Language>en-US</Language>
     <OutputEncoding>UTF-8</OutputEncoding>
