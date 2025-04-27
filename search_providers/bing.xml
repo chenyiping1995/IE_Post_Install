@@ -7,7 +7,7 @@
     <InputEncoding>UTF-8</InputEncoding>
     <SyndicationRight>limited</SyndicationRight>
     <Image type="image/vnd.microsoft.icon" height="16" width="16">https://www.bing.com/favicon.ico</Image>
-    <Url type="text/html" method="get" template="https://www.bing.com/search?ensearch=1&amp;q={searchTerms}" />
+    <Url type="text/html" rel="results" method="get" template="https://www.bing.com/search?ensearch=1&amp;q={searchTerms}" />
     <Url type="application/x-suggestions+json" rel="suggestions" method="get" template="https://api.bing.com/osjson.aspx?query={searchTerms}" />
     <ie:TopResult type="text/html" template="https://www.bing.com/search?ensearch=1&amp;q={searchTerms}" />
     <ie:NTSearchResult type="text/html" template="https://www.bing.com/search?ensearch=1&amp;q={searchTerms}" />

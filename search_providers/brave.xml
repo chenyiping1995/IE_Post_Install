@@ -5,7 +5,7 @@
     <Image height="16" width="16" type="image/png">https://cdn.search.brave.com/serp/v3/_app/immutable/assets/favicon-16x16.nT_pLL7v.png</Image>
     <Image type="image/svg+xml">https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-search-icon.CsIFM2aN.svg</Image>
     <Image height="48" width="48" type="image/vnd.microsoft.icon">https://cdn.search.brave.com/serp/v3/_app/immutable/assets/favicon.acxxetWH.ico</Image>
-    <Url type="text/html" method="get" template="https://search.brave.com/search?q={searchTerms}" />
+    <Url type="text/html" rel="results" method="get" template="https://search.brave.com/search?q={searchTerms}" />
     <Url type="application/x-suggestions+json" rel="suggestions" method="get" template="https://search.brave.com/api/suggest?q={searchTerms}" />
     <AdultContent>false</AdultContent>
     <Language>en-US</Language>

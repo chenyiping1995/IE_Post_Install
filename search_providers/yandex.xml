@@ -4,7 +4,7 @@
     <Description>Use Yandex to search the Internet.</Description>
     <Image width="64" height="64" type="image/png">https://yastatic.net/s3/web4static/_/v2/v9YNE_BX0evwMHbDyd0NZv8ReK0.png</Image>
     <Image width="16" height="16" type="image/vnd.microsoft.icon">https://yandex.com/favicon.ico</Image>
-    <Url type="text/html" method="get" template="https://yandex.com/search/?text={searchTerms}" />
+    <Url type="text/html" rel="results" method="get" template="https://yandex.com/search/?text={searchTerms}" />
     <Url type="application/x-suggestions+json" rel="suggestion" method="get" template="https://suggest.yandex.com/suggest-ff.cgi?part={searchTerms}" />
     <InputEncoding>UTF-8</InputEncoding>
     <OutputEncoding>UTF-8</OutputEncoding>

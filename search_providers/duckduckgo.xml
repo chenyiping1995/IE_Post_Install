@@ -4,7 +4,7 @@
     <LongName>DuckDuckGo 搜索</LongName>
     <Description>DuckDuckGo 是一款互联网搜索引擎，其注重用户隐私，及避免个性化检索所致的过滤气泡。它与其他搜索引擎不同的地方在于其不会分析自己的用户、对所有使用同一组关键词的用户显示同样的结果。</Description>
     <Image height="16" width="16" type="image/vnd.microsoft.icon">https://duckduckgo.com/favicon.ico</Image>
-    <Url type="text/html" method="get" template="https://duckduckgo.com/?q={searchTerms}" />
+    <Url type="text/html" rel="results" method="get" template="https://duckduckgo.com/?q={searchTerms}" />
     <Url type="application/x-suggestions+json" rel="suggestions" method="get" template="https://duckduckgo.com/ac/?q={searchTerms}&amp;type=list" />
     <Attribution>© 2008-2025 DuckDuckGo</Attribution>
     <AdultContent>false</AdultContent>

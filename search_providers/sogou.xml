@@ -2,7 +2,7 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/" xmlns:ie="http://schemas.microsoft.com/Search/2008/" >
     <ShortName>搜狗</ShortName>
     <Description>搜狗搜索</Description>
-    <Url type="text/html" method="get" template="https://www.sogou.com/web?query={searchTerms}&amp;ie=utf-8&amp;oe=utf-8"/>
+    <Url type="text/html" rel="results" method="get" template="https://www.sogou.com/web?query={searchTerms}&amp;ie=utf-8&amp;oe=utf-8"/>
     <LongName>搜狗搜索</LongName>
     <Image height="16" width="16" type="image/vnd.microsoft.icon">https://www.sogou.com/images/logo/new/favicon.ico</Image>
     <Url type="application/x-suggestions+json" rel="suggestions" method="get" template="https://sor.html5.qq.com/api/getsug?m=opensearch&amp;key={searchTerms}" />
